@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(../fontes/idroid.otf) format('opentype');
+    src: url(/fontes/idroid.otf) format('opentype');
 }
 
 :root {
@@ -39,7 +39,7 @@ header {
     color: white;
     min-height: 150px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 header > h1 {
@@ -66,7 +66,7 @@ nav {
 }
 
 nav > a {
-    color: var(--cor0);
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -76,8 +76,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor4);
-    color: var(--cor2);
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 main {
